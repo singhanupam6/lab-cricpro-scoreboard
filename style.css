@@ -1,14 +1,59 @@
-/* Type your code here */
-
-
-/* change the font family and spacing as per your project font */
+.main{
+	background-image: url("assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#cricpro{
+	padding: 5px;
+	margin-left: 1000px;
+	border: 0px;
+}
+#icc{
+	padding: 5px;
+	margin-left: 30px;
+	border: 0px;
+	font-size: 50px;
+	font-weight: bold;
+}
+#text{
+	padding: 0px;
+	margin-left: 35px;
+	border: 0px;
+	font-size: 25px;
+	font-weight: bold;
+	color: gray;
+	
+}
+.styled-table{
+	width: 800px;
+	background-color: white;
+	border-collapse: collapse;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.styled-table th{
+	padding-top: 12px;
+	background-color: red;
+	padding-bottom: 12px;
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.styled-table td{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 15px;
+}
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 5px;
+	margin-left: 40px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
